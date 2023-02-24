@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+input[type=file], /* FF, IE7+, chrome (except button) */
+input[type=file]::-webkit-file-upload-button { /* chromes and blink button */
+  cursor: pointer; 
+}
+
+i.iconfont {
+  font-size: 30px;
+  color: rgba(0,0,0,.65);
+}
+
+.header {
+  height: 61px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo, .button-group {
+  height: 60px;
+  background-color: rgb(59, 255, 118);
+}
+
+.logo {
+  width: 100px;
+  padding: 5px;
+  float: left;
+  text-align: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.button-group {
+  text-align: center;
+  padding: 14px;
+  padding-left: 100px;
+}
+
+.button-group button {
+  width: 100px;
+  height: 32px;
+  border: 1px solid #1890ff;
+  border-radius: 2px;
+  color: #1890ff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-group button:hover,
+.button-group button.active {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.button-group > button + button {
+  margin-left: 10px;
+}
+
+#open {
+  position: relative;
+}
+
+#open-input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.left_aside {
+  width: 68px;
+  height: calc(100% - 61px);
+  float: left;
+  border-right: 1px solid #ccc;
+  background-color: #d4c3c3;
+}
+
+.left_aside .icon-list {
+  border-bottom: 1px solid #ccc;
+}
+
+.left_aside .icon-list > div,
+.left_aside .link {
+  height: 51px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.left_aside .icon-list > div i {
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.right_aside {
+  width: 68px;
+  height: calc(100% - 61px);
+  float: right;
+  border-right: 1px solid #ccc;
+  background-color: #d4c3c3;
+}
+
+.right_aside .icon-list {
+  border-bottom: 1px solid #ccc;
+}
+
+.right_aside .icon-list > div,
+.right_aside .link {
+  height: 51px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.right_aside .icon-list > div i {
+  cursor: pointer;
+  user-select: none;
+}
+
+.main {
+  height: calc(100% - 61px);
+  padding-left: 101px;
+  padding-right: 101px;
+}
+
+#meta2d {
+  height: 100%;
+}
+
+
+@font-face {
+  font-family: "iconfont"; /* Project id 1517548 */
+  src: url('./myfont.woff2') format('woff2'),
+       url('./myfont.woff') format('woff'),
+       url('./myfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button-group {
+    background-color: #282A35;
+}
+.icon-audio:before {
+  content: "\e695";
+}
+
+.icon-pen:before {
+  content: "\e6d6";
+}
+
+.icon-Pencil:before {
+  content: "\e66e";
+}
+
+.icon-img:before {
+  content: "\e699";
+}
+
+.icon-video:before {
+  content: "\e7da";
+}
+
+.icon-rect:before {
+  content: "\e610";
+}
+
+.icon-triangle:before {
+  content: "\e6a2";
+}
+
+.icon-cloud:before {
+  content: "\e609";
+}
+
+.icon-circle:before {
+  content: "\e64e";
+}
+
+.icon-leftArrow:before {
+  content: "\e641";
+}
+
+.icon-rightArrow:before {
+  content: "\e643";
+}
+
+.icon-twowayArrow:before {
+  content: "\e62e";
+}
+
+.icon-line:before {
+  content: "\e678";
+}
+
+.icon-pentagon:before {
+  content: "\e61a";
+}
+
+.icon-hexagon:before {
+  content: "\ea56";
+}
+
+.icon-diamond:before {
+  content: "\e8f8";
+}
+
+.icon-pentagram:before {
+  content: "\e66f";
+}
+
+
+
+
+.icon-triangle:before {
+  content: "test";
+  font-size: 4px;
+  /* content: none; */
+  /* color: #9b2121 */
+  /* background-color:#1890ff; */
+  background-image: url("test.gif");
+  background-image: url("test.jpg");
+
+}
